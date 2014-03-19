@@ -11,3 +11,17 @@
  *= require_self
  *= require_tree .
  */
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.area {
+  fill: steelblue;
+}
+h1 {
+	color: blue;
+}
